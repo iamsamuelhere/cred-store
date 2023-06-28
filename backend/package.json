@@ -1,0 +1,27 @@
+{
+  "name": "cred-store",
+  "version": "1.0.0",
+  "description": "Command to run server.js file:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iNeuron-Pvt-Ltd/neurolab-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iNeuron-Pvt-Ltd/neurolab-nodejs/issues"
+  },
+  "homepage": "https://github.com/iNeuron-Pvt-Ltd/neurolab-nodejs#readme",
+  "dependencies": {
+    "aes256": "^1.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2",
+    "uuid": "^9.0.0"
+  }
+}
